@@ -47,7 +47,7 @@ The confusion matrix shows that most misclassifications occur between visually s
 
 ![Training Curves](images/training_curves.png)
 
-Training and validation accuracy/loss over epochs, showing the model converging without significant overfitting.
+Training and validation accuracy/loss over epochs. Training accuracy approaches 100% while validation accuracy plateaus around 98.5%, indicating mild overfitting in later epochs. EarlyStopping with restore_best_weights ensures the final model uses the best-performing checkpoint rather than the most overfit one.
 
 ## Reproducibility
 
@@ -124,4 +124,5 @@ See images/model_architecture.png for a visual diagram of the full model.
 
 ## License
 MIT LICENSE<br>
-This project is open source and available for personal and educational use.
+
+>>This is an educational project
