@@ -117,5 +117,5 @@ See images/model_architecture.png for a visual diagram of the full model.
 - Build a simple web app (e.g. Streamlit) for interactive digit prediction
 
 ## License
-MIT LICENSE
+MIT LICENSE<br>
 This project is open source and available for personal and educational use.
