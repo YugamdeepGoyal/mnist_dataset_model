@@ -93,22 +93,7 @@ mnist_dataset_model/
 pip install -r requirements.txt
 ```
 
-3. Download the MNIST dataset in IDX format and place the four files in your data directory
-4. Run the main notebook:
-
-```bash
-jupyter notebook model.ipynb
-```
-
-## Using the Saved Model
-
-The trained model is saved at models/mnist_ann_model.keras and can be loaded in any notebook or script:
-
-```python
-from tensorflow.keras.models import load_model
-
-model = load_model("models/mnist_ann_model.keras")
-```
+3. Either run the whole notebook or load the model
 
 ## Model Architecture
 
@@ -132,5 +117,5 @@ See images/model_architecture.png for a visual diagram of the full model.
 - Build a simple web app (e.g. Streamlit) for interactive digit prediction
 
 ## License
-
+MIT LICENSE
 This project is open source and available for personal and educational use.
