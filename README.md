@@ -64,6 +64,8 @@ os.environ["PYTHONHASHSEED"] = str(seed)
 - scikit-learn
 
 ## Project Structure
+
+```
 mnist_dataset_model/
 ├── images/
 │   ├── confusion_matrix.png
@@ -79,6 +81,7 @@ mnist_dataset_model/
 ├── model.ipynb              (main notebook: data loading, tuning, training, evaluation)
 ├── requirements.txt
 └── README.md
+```
 
 
 ## Setup
