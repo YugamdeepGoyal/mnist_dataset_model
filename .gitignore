@@ -1,0 +1,6 @@
+tuner_results/
+*.idx3-ubyte
+*.idx1-ubyte
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
