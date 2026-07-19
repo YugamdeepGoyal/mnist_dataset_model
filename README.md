@@ -38,10 +38,16 @@ Class distribution is approximately balanced across all 10 digits, so no class b
 
 ## Results
 
-- Final test accuracy: 0.98580002784729
-- Final test loss: 0.09160809963941574
+- Final test accuracy: ~98.58%
+- Final test loss: ~0.0916
+
+![Confusion Matrix](images/confusion_matrix.png)
 
 The confusion matrix shows that most misclassifications occur between visually similar digits, such as 7 and 2, or 9 and 4.
+
+![Training Curves](images/training_curves.png)
+
+Training and validation accuracy/loss over epochs, showing the model converging without significant overfitting.
 
 ## Reproducibility
 
