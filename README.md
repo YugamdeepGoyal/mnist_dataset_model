@@ -72,12 +72,11 @@ mnist_dataset_model/
 ├── models/
 │   └── mnist_ann_model.keras
 ├── src/
-│   ├── init.py
+│   ├── __init__.py
 │   └── load_data.py
 ├── tuner_results/
 │   └── mnist_ann_search/    (not included, regenerate by rerunning the search)
 ├── model.ipynb              (main notebook: data loading, tuning, training, evaluation)
-├── predict.jpeg             (sample handwritten digit image used for testing)
 ├── requirements.txt
 └── README.md
 
@@ -107,8 +106,6 @@ from tensorflow.keras.models import load_model
 
 model = load_model("models/mnist_ann_model.keras")
 ```
-
-See practice.ipynb for an example of loading the model and running predictions on sample images.
 
 ## Model Architecture
 
