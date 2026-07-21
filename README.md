@@ -16,6 +16,7 @@ The MNIST dataset consists of 70,000 grayscale images of handwritten digits, eac
 - t10k-labels.idx1-ubyte: 10,000 test labels
 
 Class distribution is approximately balanced across all 10 digits, so no class balancing techniques were needed.
+The dataset can be downloaded via https://www.kaggle.com/datasets/hojjatk/mnist-dataset
 
 ## Approach
 
